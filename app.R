@@ -1,4 +1,6 @@
+install.packages("shiny")
 library(shiny)
+install.packages("readr")
 library(readr)
 GuateData <- read_csv("GuateData.csv")
 
