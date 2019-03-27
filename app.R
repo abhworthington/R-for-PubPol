@@ -1,4 +1,5 @@
 library(shiny)
+library(readr)
 GuateData <- read_csv("GuateData.csv")
 
 # Define UI ----
